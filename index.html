@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>加入我们的群组</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      color: #333;
+    }
+    .button {
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: background 0.3s;
+    }
+    .qq {
+      background-color: #12b7f5;
+      color: white;
+    }
+    .qq:hover {
+      background-color: #0ea4dd;
+    }
+    .telegram {
+      background-color: #0088cc;
+      color: white;
+    }
+    .telegram:hover {
+      background-color: #007ab8;
+    }
+  </style>
+</head>
+<body>
+  <h1>欢迎加入我们的社区</h1>
+  <button class="button qq" onclick="joinQQ()">加入QQ群</button>
+  <button class="button telegram" onclick="joinTelegram()">加入Telegram频道</button>
+
+  <script>
+    const qqGroupNumber = '123456789'; // 替换为你的QQ群号
+    const telegramChannel = 'your_channel_name'; // 替换为你的Telegram频道名
+
+    function joinQQ() {
+      const url = `https://qm.qq.com/cgi-bin/qm/qr?k=${btoa(qqGroupNumber)}`;
+      window.location.href = url;
+    }
+
+    function joinTelegram() {
+      const url = `https://t.me/${telegramChannel}`;
+      window.location.href = url;
+    }
+  </script>
+</body>
+</html>
