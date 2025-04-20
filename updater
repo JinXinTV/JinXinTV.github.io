@@ -2,11 +2,11 @@
     "data": {
         "id": 3,
         "update_platform": 1,
-        "version_name": "3.2.3",
+        "version_name": "？其实没有新版本，这是公告！",
         "version_code": 322,
         "download_url": "https:\/\/www.123684.com\/s\/P43Qjv-xelKv",
         "app_size": 27,
-        "description": "已经更新的竖屏版本用户\n更新后如果还弹出更新请点击取消即可\n如果显示配置失败请点击设置→点播→把“tv”改成“ok” 即可",
+        "description": "电视直播正在优化加速",
         "is_force": false,
         "create_time": 1735723671,
         "browser_download_url": "https:\/\/www.123684.com\/s\/P43Qjv-xelKv"
